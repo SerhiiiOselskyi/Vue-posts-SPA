@@ -5,10 +5,11 @@
 </template>
 
 <script>
+import TodoPage from './components/TodoPage.vue'
 export default {
   name: 'App',
   component: [
-    todo-page
+    TodoPage
   ],
   data() {}
 }
