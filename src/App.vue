@@ -1,6 +1,6 @@
 <template>
   <div class="app" id="app">
-    <todo-page />
+    <TodoPage />
   </div>
 </template>
 
@@ -8,12 +8,11 @@
 import TodoPage from './components/TodoPage.vue'
 export default {
   name: 'App',
-  component: [
+  components: {
     TodoPage
-  ],
-  data() {}
+  },
 }
-</script>>
+</script>
 
 <style scoped>
 
